@@ -26,3 +26,6 @@ def save_database(data_sensors, abraco):
     sql = "INSERT INTO sensors (sensor, value, abraco) VALUES (%s, %s, %s)"
     print(f'SQL: {sql}')
 
+
+if __name__ == '__main__':
+    app.run(debug=True)
