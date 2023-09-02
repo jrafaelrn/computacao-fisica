@@ -20,6 +20,11 @@ def sensors():
     return  f"{len(data_sensors)} sensores foram enviados com sucesso! Abraço = {abraco}"
 
 
+@app.route('/test')
+def test():
+    return "To te escutando"
+
+
 
 def save_database(data_sensors, abraco):
 
